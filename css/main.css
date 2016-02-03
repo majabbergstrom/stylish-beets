@@ -44,3 +44,25 @@ blockquote {
 .commonlist {
   list-style-type: lower-greek;
 }
+
+.serving {
+  font-style: italic;
+}
+
+dt {
+  font-weight: bold;
+}
+
+.tags {
+  list-style-type: circle;
+  font-size: 0.9rem;
+}
+
+.footer {
+  font-size: 0.9rem;
+}
+
+.footer a:link {
+  color: #8b2b39;
+  text-decoration: none;
+}
