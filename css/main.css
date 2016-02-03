@@ -1,0 +1,46 @@
+body {
+  background-color: #c9b5ae;
+}
+
+h1 {
+  color: #340c24;
+}
+
+h2 {
+  color: #340c24;
+}
+
+a:link {
+  color: #ae6b74;
+}
+
+a:hover {
+  color: #39101e;
+}
+
+nav ol {
+  list-style-type: none;
+}
+
+figcaption {
+  text-indent: 17em;
+}
+
+.facts {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+blockquote {
+  font-size: 1.4rem;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.quote {
+  text-indent: 2em;
+}
+
+.commonlist {
+  list-style-type: lower-greek;
+}
