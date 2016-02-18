@@ -1,34 +1,37 @@
 body {
   background-color: #c9b5ae;
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
   font-size: 0.8rem;
+  font-weight: normal;
 }
 
 h1 {
   color: #340c24;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
 }
 
 h2 {
   color: #340c24;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
 }
 
 a:link {
   color: #8b2b39;
+  text-decoration: none;
 }
 
 a:hover {
   color: #39101e;
+  text-decoration: underline;
 }
 
 nav ol {
   list-style-type: none;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
 }
 
 figcaption {
-  text-align: center;;
+  text-align: center;
   font-style: italic;
   font-size: 0.8rem;
 }
@@ -44,8 +47,17 @@ blockquote {
   font-weight: bold;
 }
 
+a {
+  text-decoration: none;
+}
+
+html {
+  font-weight: normal;
+}
+
 .quote {
   text-indent: 2em;
+  font-weight: normal;
 }
 
 .commonlist {
@@ -62,7 +74,7 @@ dt {
 
 .tags {
   list-style-type: circle;
-  font-size: 0.7rem;
+  line-height: inherit;
 }
 
 .footer {
